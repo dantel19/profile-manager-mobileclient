@@ -1,0 +1,16 @@
+<ul class="table-view">
+	{{#each informationSet}}
+	<li class="table-view-cell media">
+		<a class="navigate-right">
+			{{#if attributes.active}}
+			<span class="media-object pull-left icon-check icon fa-big green"></span>
+			{{else}}
+			<span class="media-object pull-left icon-close icon fa-big red"></span>
+			{{/if}}
+			<div class="media-body">
+				<span id="{{attributes.id}}">{{attributes.description}}</span>
+			</div>
+		</a>
+	</li>
+	{{/each}}
+</ul>

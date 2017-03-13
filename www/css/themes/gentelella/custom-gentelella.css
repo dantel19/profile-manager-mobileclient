@@ -1,0 +1,76 @@
+.no-margin {
+	margin: 0!important;
+}
+.no-padding {
+	padding: 0!important;
+}
+.no-radius {
+	border-radius: 0px!important;
+}
+
+/* navbar-right panel_toolbox remove margin right when icons are < 3 */
+ul.nav.navbar-right.panel_toolbox {
+	min-width: 0px;
+}
+
+/* seems that the height of the footer must be increased*/
+footer {
+	height: 51px;
+}
+
+/* change <i> padding in left-panel */
+.site_title i {
+	padding: 6px;
+}
+
+/* simply hidden search boxes in <th> */
+th.hidden-pm > input {
+	display: none!important;
+}
+
+input.custom-input-text {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+    width: 64px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-family: inherit;
+    background-color: inherit;
+    margin: 0;
+}
+
+/* Hide overflow text and show dot...) */
+p.hideOverflow, h3.hideOverflow {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+header.bar-nav {
+  background-color: #EDEDED;
+  color: #5A738E;
+}
+.fa-big {
+  font-size: 24px;  
+}
+.user-profile {
+  padding-top: 8px!important;  
+  padding-bottom: 8px!important;  
+}
+.green {
+  color: #5cb85c;
+  opacity: 0.8;
+}
+.red {
+  color: #d9534f;
+  opacity: 0.8;
+}
+.table-view-cell a {
+  text-align: left;
+}
+li.media {
+  margin-top: 0px;
+}
